@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Tokyo Cosmetics Ltd.",
+    "last_meeting_date": "2025-09-15",
+    "products": ["Lipsticks", "Eyeshadows", "Foundation"],
+    "open_issues": ["Delivery delays for summer collection", "Pricing negotiations for bulk orders"]
+  },
+  {
+    "name": "Osaka Beauty Supplies",
+    "last_meeting_date": "2025-08-22",
+    "products": ["Skincare creams", "Hair care products", "Nail polish"],
+    "open_issues": ["Quality control concerns with recent batch", "Expanding distribution to new regions"]
+  },
+  {
+    "name": "Kyoto Lifestyle Products",
+    "last_meeting_date": "2026-10-05",
+    "products": ["Essential oils", "Wellness supplements", "Aromatherapy diffusers"],
+    "open_issues": ["Sustainability certification requirements", "Partnership opportunities for co-branding"]
+  }
+]

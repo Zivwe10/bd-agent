@@ -1,0 +1,542 @@
+[
+  {
+    "line_id": "LN-001-01",
+    "order_id": "ORD-2026-001",
+    "sku": "SKU-LIP-001",
+    "product_name": "Rose Red Lipstick",
+    "quantity": 50,
+    "unit_price": 12.00,
+    "line_total": 600.00
+  },
+  {
+    "line_id": "LN-001-02",
+    "order_id": "ORD-2026-001",
+    "sku": "SKU-EYE-005",
+    "product_name": "Gold Shimmer Eyeshadow Palette",
+    "quantity": 30,
+    "unit_price": 18.50,
+    "line_total": 555.00
+  },
+  {
+    "line_id": "LN-001-03",
+    "order_id": "ORD-2026-001",
+    "sku": "SKU-SKIN-012",
+    "product_name": "Hydrating Face Cream (50ml)",
+    "quantity": 40,
+    "unit_price": 22.99,
+    "line_total": 919.60
+  },
+  {
+    "line_id": "LN-001-04",
+    "order_id": "ORD-2026-001",
+    "sku": "SKU-NAIL-003",
+    "product_name": "Peach Blossom Nail Polish",
+    "quantity": 60,
+    "unit_price": 8.75,
+    "line_total": 525.00
+  },
+  {
+    "line_id": "LN-002-01",
+    "order_id": "ORD-2026-002",
+    "sku": "SKU-HAIR-008",
+    "product_name": "Argan Oil Hair Serum (100ml)",
+    "quantity": 25,
+    "unit_price": 15.50,
+    "line_total": 387.50
+  },
+  {
+    "line_id": "LN-002-02",
+    "order_id": "ORD-2026-002",
+    "sku": "SKU-FOUNDATION-002",
+    "product_name": "Porcelain Foundation (30ml)",
+    "quantity": 35,
+    "unit_price": 25.00,
+    "line_total": 875.00
+  },
+  {
+    "line_id": "LN-002-03",
+    "order_id": "ORD-2026-002",
+    "sku": "SKU-BLUSH-004",
+    "product_name": "Coral Pink Blush",
+    "quantity": 45,
+    "unit_price": 10.50,
+    "line_total": 472.50
+  },
+  {
+    "line_id": "LN-003-01",
+    "order_id": "ORD-2026-003",
+    "sku": "SKU-MASK-006",
+    "product_name": "Charcoal Detox Face Mask (200ml)",
+    "quantity": 55,
+    "unit_price": 16.75,
+    "line_total": 921.25
+  },
+  {
+    "line_id": "LN-003-02",
+    "order_id": "ORD-2026-003",
+    "sku": "SKU-SUNSCREEN-001",
+    "product_name": "SPF 50 Sunscreen (50ml)",
+    "quantity": 70,
+    "unit_price": 18.00,
+    "line_total": 1260.00
+  },
+  {
+    "line_id": "LN-003-03",
+    "order_id": "ORD-2026-003",
+    "sku": "SKU-LIP-BALM-002",
+    "product_name": "Mint Lip Balm Stick",
+    "quantity": 65,
+    "unit_price": 5.25,
+    "line_total": 341.25
+  },
+  {
+    "line_id": "LN-003-04",
+    "order_id": "ORD-2026-003",
+    "sku": "SKU-MOI-SAMPLE",
+    "product_name": "Moisturizer Sample Set (5 pieces)",
+    "quantity": 20,
+    "unit_price": 12.50,
+    "line_total": 250.00
+  },
+  {
+    "line_id": "LN-004-01",
+    "order_id": "ORD-2026-004",
+    "sku": "SKU-TONER-003",
+    "product_name": "Rose Water Toner (250ml)",
+    "quantity": 40,
+    "unit_price": 14.50,
+    "line_total": 580.00
+  },
+  {
+    "line_id": "LN-004-02",
+    "order_id": "ORD-2026-004",
+    "sku": "SKU-EYE-LINER-001",
+    "product_name": "Waterproof Black Eyeliner",
+    "quantity": 60,
+    "unit_price": 11.00,
+    "line_total": 660.00
+  },
+  {
+    "line_id": "LN-004-03",
+    "order_id": "ORD-2026-004",
+    "sku": "SKU-CONCEALER-005",
+    "product_name": "Full Coverage Concealer (10ml)",
+    "quantity": 50,
+    "unit_price": 16.50,
+    "line_total": 825.00
+  },
+  {
+    "line_id": "LN-004-04",
+    "order_id": "ORD-2026-004",
+    "sku": "SKU-BODY-LOTION-002",
+    "product_name": "Lavender Body Lotion (200ml)",
+    "quantity": 35,
+    "unit_price": 11.25,
+    "line_total": 393.75
+  },
+  {
+    "line_id": "LN-004-05",
+    "order_id": "ORD-2026-004",
+    "sku": "SKU-BRUSH-SET-001",
+    "product_name": "Professional Makeup Brush Set (12pc)",
+    "quantity": 15,
+    "unit_price": 35.00,
+    "line_total": 525.00
+  },
+  {
+    "line_id": "LN-005-01",
+    "order_id": "ORD-2026-005",
+    "sku": "SKU-SHEET-MASK-004",
+    "product_name": "Hyaluronic Acid Sheet Mask (10 pack)",
+    "quantity": 80,
+    "unit_price": 8.99,
+    "line_total": 719.20
+  },
+  {
+    "line_id": "LN-005-02",
+    "order_id": "ORD-2026-005",
+    "sku": "SKU-SERUM-007",
+    "product_name": "Vitamin C Brightening Serum (30ml)",
+    "quantity": 45,
+    "unit_price": 28.00,
+    "line_total": 1260.00
+  },
+  {
+    "line_id": "LN-005-03",
+    "order_id": "ORD-2026-005",
+    "sku": "SKU-NIGHT-CREAM-001",
+    "product_name": "Retinol Night Cream (50ml)",
+    "quantity": 35,
+    "unit_price": 32.50,
+    "line_total": 1137.50
+  },
+  {
+    "line_id": "LN-005-04",
+    "order_id": "ORD-2026-005",
+    "sku": "SKU-GEL-CLEANSER-002",
+    "product_name": "Gentle Face Gel Cleanser (200ml)",
+    "quantity": 50,
+    "unit_price": 13.30,
+    "line_total": 665.00
+  },
+  {
+    "line_id": "LN-005-05",
+    "order_id": "ORD-2026-005",
+    "sku": "SKU-PERFUME-001",
+    "product_name": "Floral Eau de Toilette (100ml)",
+    "quantity": 20,
+    "unit_price": 45.00,
+    "line_total": 900.00
+  },
+  {
+    "line_id": "LN-006-01",
+    "order_id": "ORD-2026-006",
+    "sku": "SKU-CREAM-BLUSH-003",
+    "product_name": "Rose Gold Cream Blush",
+    "quantity": 40,
+    "unit_price": 12.75,
+    "line_total": 510.00
+  },
+  {
+    "line_id": "LN-006-02",
+    "order_id": "ORD-2026-006",
+    "sku": "SKU-LIP-GLOSS-005",
+    "product_name": "Berry Shimmer Lip Gloss",
+    "quantity": 55,
+    "unit_price": 9.50,
+    "line_total": 522.50
+  },
+  {
+    "line_id": "LN-006-03",
+    "order_id": "ORD-2026-006",
+    "sku": "SKU-MICELLAR-WATER-001",
+    "product_name": "Micellar Cleansing Water (500ml)",
+    "quantity": 30,
+    "unit_price": 11.00,
+    "line_total": 330.00
+  },
+  {
+    "line_id": "LN-006-04",
+    "order_id": "ORD-2026-006",
+    "sku": "SKU-SETTING-SPRAY-001",
+    "product_name": "Makeup Setting Spray (120ml)",
+    "quantity": 25,
+    "unit_price": 13.50,
+    "line_total": 337.50
+  },
+  {
+    "line_id": "LN-006-05",
+    "order_id": "ORD-2026-006",
+    "sku": "SKU-YEN-CANDLE-001",
+    "product_name": "Specialty Gift Set (Soap + Candle)",
+    "quantity": 10,
+    "unit_price": 24.00,
+    "line_total": 240.00
+  },
+  {
+    "line_id": "LN-006-06",
+    "order_id": "ORD-2026-006",
+    "sku": "SKU-ESSENCE-PAD-002",
+    "product_name": "Essence Toning Pad (60 pads)",
+    "quantity": 15,
+    "unit_price": 11.50,
+    "line_total": 172.50
+  },
+  {
+    "line_id": "LN-007-01",
+    "order_id": "ORD-2026-007",
+    "sku": "SKU-WELLNESS-OIL-001",
+    "product_name": "Meditation Wellness Oil Blend (50ml)",
+    "quantity": 25,
+    "unit_price": 24.00,
+    "line_total": 600.00
+  },
+  {
+    "line_id": "LN-007-02",
+    "order_id": "ORD-2026-007",
+    "sku": "SKU-HERBAL-TEA-001",
+    "product_name": "Calming Herbal Tea Box (20 bags)",
+    "quantity": 40,
+    "unit_price": 10.00,
+    "line_total": 400.00
+  },
+  {
+    "line_id": "LN-007-03",
+    "order_id": "ORD-2026-007",
+    "sku": "SKU-DIFFUSER-002",
+    "product_name": "Ultrasonic Diffuser (Light Therapy)",
+    "quantity": 15,
+    "unit_price": 42.50,
+    "line_total": 637.50
+  },
+  {
+    "line_id": "LN-007-04",
+    "order_id": "ORD-2026-007",
+    "sku": "SKU-STRESS-RELIEF-001",
+    "product_name": "Stress Relief Supplement (60 capsules)",
+    "quantity": 30,
+    "unit_price": 15.75,
+    "line_total": 472.50
+  },
+  {
+    "line_id": "LN-007-05",
+    "order_id": "ORD-2026-007",
+    "sku": "SKU-MASSAGE-ROLLER-001",
+    "product_name": "Jade Massage Roller",
+    "quantity": 20,
+    "unit_price": 16.50,
+    "line_total": 330.00
+  },
+  {
+    "line_id": "LN-007-06",
+    "order_id": "ORD-2026-007",
+    "sku": "SKU-BATH-BOMB-003",
+    "product_name": "Aromatherapy Bath Bombs (8 pieces)",
+    "quantity": 35,
+    "unit_price": 13.50,
+    "line_total": 472.50
+  },
+  {
+    "line_id": "LN-007-07",
+    "order_id": "ORD-2026-007",
+    "sku": "SKU-PILLOW-MIST-001",
+    "product_name": "Sleep Pillow Mist (100ml)",
+    "quantity": 28,
+    "unit_price": 12.00,
+    "line_total": 336.00
+  },
+  {
+    "line_id": "LN-008-01",
+    "order_id": "ORD-2026-008",
+    "sku": "SKU-LUXURY-SOAP-001",
+    "product_name": "Premium Handmade Soap (6 bar set)",
+    "quantity": 30,
+    "unit_price": 28.75,
+    "line_total": 862.50
+  },
+  {
+    "line_id": "LN-008-02",
+    "order_id": "ORD-2026-008",
+    "sku": "SKU-FOOT-CREAM-001",
+    "product_name": "Intensive Foot Repair Cream (200ml)",
+    "quantity": 40,
+    "unit_price": 16.25,
+    "line_total": 650.00
+  },
+  {
+    "line_id": "LN-008-03",
+    "order_id": "ORD-2026-008",
+    "sku": "SKU-EXFOLIANT-SCRUB-001",
+    "product_name": "Sugar Body Exfoliant Scrub (250ml)",
+    "quantity": 35,
+    "unit_price": 14.50,
+    "line_total": 507.50
+  },
+  {
+    "line_id": "LN-008-04",
+    "order_id": "ORD-2026-008",
+    "sku": "SKU-HAND-SERUM-002",
+    "product_name": "Nourishing Hand Serum (75ml)",
+    "quantity": 50,
+    "unit_price": 13.00,
+    "line_total": 650.00
+  },
+  {
+    "line_id": "LN-008-05",
+    "order_id": "ORD-2026-008",
+    "sku": "SKU-NAIL-SERUM-001",
+    "product_name": "Nail Strengthening Serum (15ml)",
+    "quantity": 45,
+    "unit_price": 11.75,
+    "line_total": 528.75
+  },
+  {
+    "line_id": "LN-008-06",
+    "order_id": "ORD-2026-008",
+    "sku": "SKU-FACIAL-ROLLER-001",
+    "product_name": "Rose Quartz Facial Roller",
+    "quantity": 25,
+    "unit_price": 22.00,
+    "line_total": 550.00
+  },
+  {
+    "line_id": "LN-008-07",
+    "order_id": "ORD-2026-008",
+    "sku": "SKU-GIFTBOX-PREMIUM-001",
+    "product_name": "Deluxe Gift Box (Starter Kit)",
+    "quantity": 18,
+    "unit_price": 64.50,
+    "line_total": 1161.00
+  },
+  {
+    "line_id": "LN-008-08",
+    "order_id": "ORD-2026-008",
+    "sku": "SKU-LIP-OIL-001",
+    "product_name": "Moisturizing Lip Oil (12ml)",
+    "quantity": 55,
+    "unit_price": 7.75,
+    "line_total": 426.25
+  },
+  {
+    "line_id": "LN-008-09",
+    "order_id": "ORD-2026-008",
+    "sku": "SKU-PRIMER-HYDRATING-001",
+    "product_name": "Hydrating Face Primer (35ml)",
+    "quantity": 30,
+    "unit_price": 19.50,
+    "line_total": 585.00
+  },
+  {
+    "line_id": "LN-008-10",
+    "order_id": "ORD-2026-008",
+    "sku": "SKU-SETTING-POWDER-001",
+    "product_name": "Translucent Setting Powder (20g)",
+    "quantity": 42,
+    "unit_price": 12.00,
+    "line_total": 504.00
+  },
+  {
+    "line_id": "LN-008-11",
+    "order_id": "ORD-2026-008",
+    "sku": "SKU-MASCARA-VOLUMIZING-001",
+    "product_name": "Volumizing Mascara Black (10ml)",
+    "quantity": 38,
+    "unit_price": 14.75,
+    "line_total": 560.75
+  },
+  {
+    "line_id": "LN-009-01",
+    "order_id": "ORD-2026-009",
+    "sku": "SKU-ORGANIC-LOTION-001",
+    "product_name": "Organic Aloe Body Lotion (250ml)",
+    "quantity": 30,
+    "unit_price": 13.50,
+    "line_total": 405.00
+  },
+  {
+    "line_id": "LN-009-02",
+    "order_id": "ORD-2026-009",
+    "sku": "SKU-NATURAL-LIP-TINT-001",
+    "product_name": "Natural Berry Lip Tint",
+    "quantity": 40,
+    "unit_price": 10.25,
+    "line_total": 410.00
+  },
+  {
+    "line_id": "LN-009-03",
+    "order_id": "ORD-2026-009",
+    "sku": "SKU-BAMBOO-BRUSH-001",
+    "product_name": "Bamboo Makeup Brush Set (7pc)",
+    "quantity": 20,
+    "unit_price": 19.00,
+    "line_total": 380.00
+  },
+  {
+    "line_id": "LN-009-04",
+    "order_id": "ORD-2026-009",
+    "sku": "SKU-RECYCLED-BAG-001",
+    "product_name": "Eco-Friendly Beauty Bag",
+    "quantity": 25,
+    "unit_price": 14.50,
+    "line_total": 362.50
+  },
+  {
+    "line_id": "LN-009-05",
+    "order_id": "ORD-2026-009",
+    "sku": "SKU-REUSABLE-PADS-001",
+    "product_name": "Reusable Makeup Remover Pads (10pc)",
+    "quantity": 35,
+    "unit_price": 7.50,
+    "line_total": 262.50
+  },
+  {
+    "line_id": "LN-009-06",
+    "order_id": "ORD-2026-009",
+    "sku": "SKU-TRAVEL-KIT-001",
+    "product_name": "Travel Size Skincare Kit (5 items)",
+    "quantity": 15,
+    "unit_price": 16.75,
+    "line_total": 251.25
+  },
+  {
+    "line_id": "LN-009-07",
+    "order_id": "ORD-2026-009",
+    "sku": "SKU-FACE-SERUM-TRAVEL",
+    "product_name": "Face Serum Travel Size (15ml)",
+    "quantity": 32,
+    "unit_price": 5.75,
+    "line_total": 184.00
+  },
+  {
+    "line_id": "LN-010-01",
+    "order_id": "ORD-2026-010",
+    "sku": "SKU-ANTI-AGING-COMPLEX-001",
+    "product_name": "Anti-Aging Serum Complex (30ml)",
+    "quantity": 35,
+    "unit_price": 26.50,
+    "line_total": 927.50
+  },
+  {
+    "line_id": "LN-010-02",
+    "order_id": "ORD-2026-010",
+    "sku": "SKU-COLLAGEN-MASK-001",
+    "product_name": "Collagen Hydration Mask (100ml)",
+    "quantity": 28,
+    "unit_price": 17.50,
+    "line_total": 490.00
+  },
+  {
+    "line_id": "LN-010-03",
+    "order_id": "ORD-2026-010",
+    "sku": "SKU-EYE-CREAM-DELUXE-001",
+    "product_name": "Luxury Eye Cream (20ml)",
+    "quantity": 22,
+    "unit_price": 29.50,
+    "line_total": 649.00
+  },
+  {
+    "line_id": "LN-010-04",
+    "order_id": "ORD-2026-010",
+    "sku": "SKU-BRIGHTENING-PAD-001",
+    "product_name": "Brightening Treatment Pads (60 pieces)",
+    "quantity": 18,
+    "unit_price": 14.00,
+    "line_total": 252.00
+  },
+  {
+    "line_id": "LN-010-05",
+    "order_id": "ORD-2026-010",
+    "sku": "SKU-LIP-PLUMPER-001",
+    "product_name": "Lip Plumper Serum (10ml)",
+    "quantity": 25,
+    "unit_price": 11.50,
+    "line_total": 287.50
+  },
+  {
+    "line_id": "LN-010-06",
+    "order_id": "ORD-2026-010",
+    "sku": "SKU-PRIMER-BAR-001",
+    "product_name": "Solid Makeup Primer Bar",
+    "quantity": 16,
+    "unit_price": 18.00,
+    "line_total": 288.00
+  },
+  {
+    "line_id": "LN-010-07",
+    "order_id": "ORD-2026-010",
+    "sku": "SKU-FINISHING-SPRAY-001",
+    "product_name": "Long-Lasting Finishing Spray (100ml)",
+    "quantity": 20,
+    "unit_price": 13.75,
+    "line_total": 275.00
+  },
+  {
+    "line_id": "LN-010-08",
+    "order_id": "ORD-2026-010",
+    "sku": "SKU-BONUS-SAMPLE-SET",
+    "product_name": "Bonus Sample Beauty Set (8 items)",
+    "quantity": 12,
+    "unit_price": 11.00,
+    "line_total": 132.00
+  }
+]

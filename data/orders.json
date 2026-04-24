@@ -1,0 +1,82 @@
+[
+  {
+    "order_id": "ORD-2026-001",
+    "customer_name": "Tokyo Beauty Co.",
+    "territory": "Japan",
+    "order_date": "2026-03-15",
+    "status": "Shipped",
+    "total_amount": 2450.50
+  },
+  {
+    "order_id": "ORD-2026-002",
+    "customer_name": "Vancouver Cosmetics Ltd.",
+    "territory": "Canada",
+    "order_date": "2026-03-18",
+    "status": "Processing",
+    "total_amount": 1875.00
+  },
+  {
+    "order_id": "ORD-2026-003",
+    "customer_name": "Taipei Lifestyle Store",
+    "territory": "Taiwan",
+    "order_date": "2026-03-20",
+    "status": "Delivered",
+    "total_amount": 3120.75
+  },
+  {
+    "order_id": "ORD-2026-004",
+    "customer_name": "Osaka Beauty Supplies",
+    "territory": "Japan",
+    "order_date": "2026-03-22",
+    "status": "Processing",
+    "total_amount": 2890.25
+  },
+  {
+    "order_id": "ORD-2026-005",
+    "customer_name": "Toronto Fashion House",
+    "territory": "Canada",
+    "order_date": "2026-03-25",
+    "status": "Pending",
+    "total_amount": 4250.00
+  },
+  {
+    "order_id": "ORD-2026-006",
+    "customer_name": "Kaohsiung Beauty Mart",
+    "territory": "Taiwan",
+    "order_date": "2026-03-26",
+    "status": "Shipped",
+    "total_amount": 2105.50
+  },
+  {
+    "order_id": "ORD-2026-007",
+    "customer_name": "Kyoto Wellness Center",
+    "territory": "Japan",
+    "order_date": "2026-03-28",
+    "status": "Delivered",
+    "total_amount": 3675.00
+  },
+  {
+    "order_id": "ORD-2026-008",
+    "customer_name": "Montreal Premium Beauty",
+    "territory": "Canada",
+    "order_date": "2026-03-29",
+    "status": "Shipped",
+    "total_amount": 5120.75
+  },
+  {
+    "order_id": "ORD-2026-009",
+    "customer_name": "Taichung Natural Products",
+    "territory": "Taiwan",
+    "order_date": "2026-04-01",
+    "status": "Processing",
+    "total_amount": 1950.25
+  },
+  {
+    "order_id": "ORD-2026-010",
+    "customer_name": "Yokohama Retail Group",
+    "territory": "Japan",
+    "order_date": "2026-04-02",
+    "status": "Pending",
+    "total_amount": 2340.50
+  }
+]
