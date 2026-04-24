@@ -1,5 +1,11 @@
 import json
 import os
+import sys
+
+# Force UTF-8 output so Hebrew prints correctly on Windows
+if sys.stdout.encoding != 'utf-8':
+    sys.stdout.reconfigure(encoding='utf-8')
+    sys.stdin.reconfigure(encoding='utf-8')
 
 # Path to the clients data file
 data_file = os.path.join(os.path.dirname(__file__), '..', 'data', 'clients.json')
