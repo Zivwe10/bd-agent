@@ -32,12 +32,14 @@ CREATE TABLE client_products (
 );
 
 CREATE TABLE orders (
-    order_id      TEXT PRIMARY KEY,
-    customer_name TEXT    NOT NULL,
-    territory     TEXT    NOT NULL,
-    order_date    TEXT    NOT NULL,
-    status        TEXT    NOT NULL,
-    total_amount  REAL    NOT NULL
+    order_id        TEXT PRIMARY KEY,
+    customer_name   TEXT NOT NULL,
+    territory       TEXT NOT NULL,
+    order_date      TEXT NOT NULL,
+    status          TEXT NOT NULL,
+    total_amount    REAL NOT NULL,
+    eta             TEXT,          -- expected delivery date (YYYY-MM-DD)
+    delivered_date  TEXT           -- actual delivery date (YYYY-MM-DD), NULL until delivered
 );
 
 CREATE TABLE order_lines (
@@ -97,12 +99,29 @@ def setup():
     print(f"Seeded {len(clients)} clients")
 
     # -- Seed orders -----------------------------------------------------------
+    # eta / delivered_date keyed by order_id (week of 2026-04-28)
+    ORDER_DATES = {
+        'ORD-2026-001': ('2026-04-30', None),          # Shipped  -> ETA this week
+        'ORD-2026-002': ('2026-04-08', None),          # Processing -> LATE
+        'ORD-2026-003': ('2026-04-15', '2026-04-28'),  # Delivered  -> delivered this week
+        'ORD-2026-004': ('2026-04-12', None),          # Processing -> LATE
+        'ORD-2026-005': ('2026-05-10', None),          # Pending    -> future
+        'ORD-2026-006': ('2026-05-02', None),          # Shipped  -> ETA this week
+        'ORD-2026-007': ('2026-04-18', '2026-04-29'),  # Delivered  -> delivered this week
+        'ORD-2026-008': ('2026-05-01', None),          # Shipped  -> ETA this week
+        'ORD-2026-009': ('2026-04-22', None),          # Processing -> LATE
+        'ORD-2026-010': ('2026-05-15', None),          # Pending    -> future
+    }
     orders = load_json('orders.json')
-    cur.executemany(
-        """INSERT INTO orders (order_id, customer_name, territory, order_date, status, total_amount)
-           VALUES (:order_id, :customer_name, :territory, :order_date, :status, :total_amount)""",
-        orders
-    )
+    for o in orders:
+        eta, delivered = ORDER_DATES.get(o['order_id'], (None, None))
+        cur.execute(
+            """INSERT INTO orders
+               (order_id, customer_name, territory, order_date, status, total_amount, eta, delivered_date)
+               VALUES (?, ?, ?, ?, ?, ?, ?, ?)""",
+            (o['order_id'], o['customer_name'], o['territory'],
+             o['order_date'], o['status'], o['total_amount'], eta, delivered)
+        )
     print(f"Seeded {len(orders)} orders")
 
     # -- Seed order lines ------------------------------------------------------

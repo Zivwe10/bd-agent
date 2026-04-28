@@ -18,3 +18,4 @@ data/sent_emails.json
 # Auth tokens
 token.json
 data/bd_agent.db
+briefing.html
